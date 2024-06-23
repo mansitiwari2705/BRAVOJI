@@ -1,0 +1,150 @@
+<div style="display: flex; flex-direction: column; margin: -8px;"> 
+    <div class="header">
+        <!-- <p style="padding-left: 2%;">LOGO</p> -->
+        <div style="display: flex;gap: 9px;">
+            <!-- <img  class="logo" src="assets/Logo.png" > -->
+            <img  class="logo" src="assets/1.png" >
+        <p class="logo-text">B R A V O J I</p>
+        </div>
+        
+        <div class="service">
+            
+            <div class="hamburger" (click)="toggleMenu()">
+                &#9776;
+            </div>
+           
+           <!-- <p style="margin-right: 20px;" class="para">Services</p>
+           <p style="margin-right: 20px;" class="para">Our Work</p>
+           <p style="margin-right: 20px;" class="para">About us</p> 
+           <p style="margin-right: 20px;" class="para">More</p> -->
+          
+        </div>
+    </div>
+    <div *ngIf="isMenuOpen" class="dropdown-menu">
+        <p (click)="contactUsButton()" class="para" >Contact Us</p>
+        <p class="para">Our Work</p>
+        <p class="para">About us</p>
+        <p class="para">More</p>
+    </div>
+    <div class="upper-part">
+        <h1 style="font-size: 44px;
+        font-weight: 600;
+        font-family: sans-serif;">Transforming Lawyer's Online Presence with Personal Branding and Video Editing</h1>
+        <p class="para" style="font-weight: 900;" >We, at BRAVOJI specialize in providing top-notch video editing and personal branding services exclusively for professional lawyers and firms. Our expertise helps you in increasing profits, saving time and money all while engaging with your audience and standing out from the competition.</p>
+        <div class="upper-buttons">
+            <!-- <button style="padding: 10px;
+            font-size: 20px;
+            background: black;
+            color: white;">Learn More</button> -->
+            <button style="padding: 10px;
+            font-size: 20px;color: white;
+    border-radius: 10px;
+    border: 1px solid black;">
+            <a href="mailto:tiwariht711@gmail.com" target="_blank">
+                Contact Us
+            </a> </button>
+        </div>
+    </div>
+    <div class="second">
+        <div>
+            <h2 class="sub-head">Transforming Legal Marketing Strategies</h2>
+            <div style="display: flex;
+            flex-direction: column;">
+
+                <p class="para">We specialize in video editing and personal branding services for professional lawyers.</p>
+                <p class="para">✓ Increased Client Engagement</p>
+                <p class="para">💻 Establish a Professional Brand</p>
+                <p class="para"> ⏱ Save Valuable Time</p>
+                
+            </div>
+            
+        </div>
+        <img src="assets/cartoon.png" alt="cartoon" style="width: 15%;"> 
+    </div>
+    <div class="third">
+        <div class="third-1">
+            <h2 class="sub-head" >Unlock the Power of Video and Social Media</h2>
+            <p class="para third-1-para">Our expert team provides top-notch video editing and personal branding services, tailored specifically for professional lawyers. We understand the unique needs of the legal industry and are committed to helping you enhance your online presence, engage your audience, and drive meaningful results.</p>
+        </div>
+        <div class="sub-parts" style="display: flex;">
+            <div class="subs" >
+                <p class="mini-head">Video Editing Services</p>
+                <p class="para">We offer professional video editing services that bring your legal content to life. From enhancing visuals to adding captivating effects, our team ensures that your videos leave a lasting impression on your audience.</p>
+            </div>
+            <div class="subs" >
+                <p class="mini-head">Personal Branding Services</p>
+                <p class="para">Our personal branding services help you build a strong online presence, connect with your target audience, and establish your authority in the legal industry.</p>
+            </div>
+            <div class="subs" >
+                <p class="mini-head">Custom Campaigns</p>
+                <p class="para">We create custom campaigns that align with your firm's goals and objectives, ensuring maximum impact and engagement from your target audience.</p>
+            </div>
+        </div>
+
+    </div>
+    <app-carousel></app-carousel>
+
+    <div style="font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2% 0%;">Brands we've worked with:</div> 
+    <div class="brand-container">
+        <img src="assets/Tradesy.png" alt="Brand 1" class="brand-image">
+        <img src="assets/dessertholic.png" alt="Brand 2" class="brand-image">
+        <img src="assets/deltoid vfx alpha.png" alt="Brand 3" class="brand-image">
+        <img src="assets/Mind.png" alt="Brand 4" class="brand-image">
+        <img src="assets/AMDC LOGO.jpg" alt="Brand 5" class="brand-image">
+    </div>
+
+    <!-- <div class="why">
+        <p>Why you should work with us?</p>
+        <ul>
+            <li></li>
+            <li>hiiiiiiii</li>
+            <li>hiiiiiiii</li>
+            <li>hiiiiiiii</li>
+        </ul>
+    </div> -->
+    <div class="stream">
+
+        <!-- <p class="para">Efficient</p> -->
+        <h2 class="sub-head">Streamlined Process for Professional Lawyers</h2>
+        <p class="para">Our video editing and personal branding services for professional lawyers follow a detailed process from the initial consultation to the final delivery of services. We ensure that every step is executed with precision and professionalism to meet your specific needs.</p>
+    </div> 
+    
+    
+      
+    <div class="footer">
+        <div class="contact">
+            <img class="bottom-logo" src="assets/1.png" >
+        <div>
+            <p class="para">Address</p>
+            <p class="para">Dubai , UAE</p>
+        </div>
+        <div>
+            <p class="para">Contact</p>
+            <a href="mailto:tiwariht711@gmail.com" class="para" target="_blank">Harsh Tiwari</a>
+        </div>
+        </div>
+        
+    </div>
+    <div class="end">
+        <!-- <a href="https://www.linkedin.com/" target="_blank">
+            <img src="assets/linkedin.png" style="width: 30px;height: 30px;" alt="linkedin">
+        </a> -->
+        <!-- <a href="https://www.facebook.com/" target="_blank">
+            <img src="assets/facebook.png" style="width: 30px;height: 30px;" alt="facebook">
+        </a> -->
+        <a href="https://www.instagram.com/bravoji.media?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img src="assets/instagram.png" style="width: 30px;height: 30px;" alt="instagram">
+        </a>
+        <!-- <a href="https://www.twitter.com/" target="_blank">
+            <img src="assets/twitterx.png" style="width: 30px;height: 30px;" alt="twitterx">
+        </a> -->
+        <a href="mailto:tiwariht711@gmail.com"  target="_blank">
+            <img src="assets/mail.png" style="width: 25px;height: 29px;" alt="instagram">
+        </a>
+
+    </div>
+</div>

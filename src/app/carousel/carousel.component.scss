@@ -1,0 +1,119 @@
+
+@media(max-width:767px){
+    .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .testimonial-image{
+        width: 100px;
+                height: 100px;
+                border: 5px solid lightblue;
+                border-radius: 200px;
+    }
+    .image-div{
+        // width: 40%;
+        // padding-left: 5%;
+        /* justify-content: flex-end; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 0.1;
+        width: 100%;
+        align-items: center;
+    }
+    .name{
+        color: white;
+            font-size: 18px;
+    }
+    .pos{
+        color: white;
+        font-size: 14px;
+    }
+    .text-div{
+        // width: 60%;
+        // padding-right: 5%;
+    }
+    .commas{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 32%;
+    }
+    .testimonial-text{
+        background: lightblue;
+        padding: 6% 18%;
+        font-size: 18px;
+        border-radius: 16px;
+        border: 1px solid lightblue;
+        color: white;
+    }
+    .main-swiper{
+        // height: 70vh;
+        padding: 6%;
+    background: black;
+    }
+    
+}
+@media(min-width:767px)
+{
+    .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonial-image{
+        width: 300px;
+                height: 300px;
+                border: 5px solid lightblue;
+                border-radius: 200px;
+    }
+    .image-div{
+        width: 40%;
+        padding-left: 5%;
+        /* justify-content: flex-end; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 0.1;
+    }
+    .name{
+        color: white;
+            font-size: 30px;
+    }
+    .pos{
+        color: white;
+            font-size: 21px;
+    }
+    .text-div{
+        width: 60%;
+        padding-right: 5%;
+    }
+    .commas{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+    }
+    .testimonial-text{
+        background: lightblue;
+        padding: 9%;
+        font-size: x-large;
+        border-radius: 16px;
+        border: 1px solid lightblue;
+        color: white;
+    }
+    .main-swiper{
+        height: 70vh;padding: 2% 7%;
+    background: black;
+    }
+    
+}

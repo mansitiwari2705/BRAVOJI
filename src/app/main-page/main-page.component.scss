@@ -1,0 +1,456 @@
+.body{
+    width: 100%;
+}
+
+@media (min-width: 767px){
+    .header{
+        // padding-left: 2%;
+        // padding-right: 2%;
+        display: flex;
+        // width: 100%;
+        justify-content: space-between;
+        border-bottom: 1px solid black;
+        background-color: #161515;
+        color: white;
+        padding: 1% 2%;
+    }
+    .hamburger{
+        font-size: xx-large;
+    }
+    .dropdown-menu{
+        padding: 0 2%;
+        // background-color: lightgray;
+    }
+    .logo{
+        width: 15%;
+    }
+    .logo-text {
+        // margin-left: 10px;
+        // font-size: 24px;
+        font-family: sans-serif;
+        animation: flashy 1.5s infinite alternate;
+        font-weight: bold;
+    }
+    @keyframes flashy {
+        0% {
+            color: #000;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+        }
+        50% {
+            color: white;
+            // text-shadow: 0 0 10px #ff6347, 0 0 20px #ff6347, 0 0 30px #ff6347;
+        }
+        100% {
+            color: #000;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+        }
+    }
+    .service{
+        display: flex;
+    }
+    .sign{
+    display: flex;
+    gap: 10px;
+    }
+    .upper-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 20% 5% 20%;
+        text-align: center;
+        gap: 30px;
+        background-color: white;
+        // background-image: url("/assets/Designer.jpeg");
+        // background-position-y: center;
+       
+       
+    }
+    .upper-buttons{
+        display: flex;
+        gap:30px;
+    }
+    .para{
+        font-size: 16px;
+            font-family: sans-serif;
+    }
+    .second{
+        display: flex;
+        justify-content: space-around;
+        padding: 6% 0;
+        background-color: #161515;
+        color: white;
+    }
+    .sub-head{
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .third{
+        display: flex;
+        justify-content: space-around;
+        padding: 5% 0;
+        flex-direction: column;
+        gap:60px;
+        background-color: white;
+    
+       
+    }
+    .third-1{
+        display: flex;justify-content: space-between;padding: 0 10%; gap: 30px;
+    }
+    third-1-para{
+        width: 50%;margin-top: 30px;
+    }
+    .subs{
+        width: 33%;
+        background: black;
+        color: white;
+        border-radius: 50px;
+        padding: 2%;
+    }
+    .sub-parts{
+        display: flex;
+        padding: 0 10%;
+        justify-content: space-evenly;
+        gap: 10%;
+    }
+    .mini-head{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+    .stream{
+        display: flex;
+        justify-content: space-around;
+        // padding: 10% 0;
+        flex-direction: column;
+        // gap:60px;
+        padding: 5% 20% 5% 20%;
+        text-align: center;
+        background-color: white;
+        color: black;
+        // background-image: url('/assets/Social-Media-for-Lawyers.jpg');
+        // background-repeat: round;
+    }
+    .carousel-inner img {
+        height: 500px;
+        object-fit: cover;
+      }
+    
+    .brand-container{
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2% 0;
+        align-items: center;
+    }
+    .brand-image{
+    transition: transform 0.3s ease;
+    // width: 80px;
+    //     height: 80px;
+    width: 13%;
+    }
+    .brand-image:hover{
+        transform: scale(1.5);
+        // background-color: gray;
+        }
+    .footer{
+        border-top: 2px solid black;
+        padding: 5% 0;
+        border-bottom: 2px solid black;
+        background: black;
+        color: white;
+    }  
+    .contact{
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    
+    }
+    .end{
+        padding: 1% 4%;
+        display: flex;
+        // margin-left: 5%;
+        gap: 10px;
+        background-color: white;
+    }
+    .bottom-logo{
+        width: 4%;
+    }
+    
+}
+
+@media (max-width: 767px){
+
+.header{
+    // padding-left: 2%;
+    // padding-right: 2%;
+    display: flex;
+    // width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background-color: #161515;
+    color: white;
+    padding: 1% 2%;
+}
+.hamburger{
+    font-size: xx-large;
+}
+.dropdown-menu{
+    padding: 0 6%;
+}
+.logo{
+    width: 13%;
+}
+.logo-text {
+    // margin-left: 10px;
+    // font-size: 24px;
+    font-family: sans-serif;
+    animation: flashy 1.5s infinite alternate;
+    font-weight: bold;
+}
+@keyframes flashy {
+    0% {
+        color: #000;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+    }
+    50% {
+        color: white;
+        // text-shadow: 0 0 10px #ff6347, 0 0 20px #ff6347, 0 0 30px #ff6347;
+    }
+    100% {
+        color: #000;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+    }
+}
+.service{
+    display: flex;
+}
+.sign{
+display: flex;
+gap: 10px;
+}
+.upper-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+    text-align: center;
+    gap: 30px;
+    background-color: white;
+    // background-image: url("/assets/Designer.jpeg");
+    // background-position-y: center;
+   
+   
+}
+.upper-buttons{
+    display: flex;
+    gap:30px;
+}
+.para{
+    font-size: 16px;
+        font-family: sans-serif;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    padding: 6% 6%;
+    background-color: #161515;
+    color: white;
+}
+.sub-head{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    padding: 6%;
+    flex-direction: column;
+    gap:60px;
+    background-color: white;
+
+   
+}
+.third-1{
+    display: flex;justify-content: space-between;padding: 0 10%;
+    flex-direction: column;
+}
+third-1-para{
+    margin-top: 30px;
+}
+.subs{
+    // width: 33%;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    padding: 3%;
+    text-align: center;
+}
+.sub-parts{
+    display: flex;
+    // padding: 0 10%;
+    justify-content: space-evenly;
+    // gap: 10%;
+    flex-direction: column;
+        gap: 20px;
+}
+.mini-head{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.stream{
+    display: flex;
+    justify-content: space-around;
+    // padding: 10% 0;
+    flex-direction: column;
+    // gap:60px;
+    padding: 6%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    // background-image: url('/assets/Social-Media-for-Lawyers.jpg');
+    // background-repeat: round;
+}
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+.brand-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 6%;
+    align-items: center;
+}
+.brand-image{
+transition: transform 0.3s ease;
+width:18%;
+    height: 18%;
+}
+.brand-image:hover{
+    transform: scale(1.5);
+    // background-color: gray;
+    }
+.footer{
+    border-top: 2px solid black;
+    padding: 5% 0;
+    border-bottom: 2px solid black;
+    background: black;
+    color: white;
+}  
+.contact{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.end{
+    padding: 1% 4%;
+    display: flex;
+    // margin-left: 5%;
+    gap: 10px;
+    background-color: white;
+}
+.bottom-logo{
+    width: 20%;
+}
+}
+// @media (max-width: 767px) {
+//     .header{
+//         // padding-left: 2%;
+//         // padding-right: 2%;
+//         display: flex;
+//         width: 100%;
+//         justify-content: space-between;
+//         border-bottom: 1px solid black;
+//     }
+//     .service{
+//         display: flex;
+//     }
+//     .sign{
+//     display: flex;
+//     gap: 10px;
+//     }
+//     .upper-part{
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         padding: 5% 20% 5% 20%;
+//         text-align: center;
+//         gap: 30px;
+//     }
+//     .upper-buttons{
+//         display: flex;
+//         gap:30px;
+//     }
+//     .para{
+//         font-size: 16px;
+//             font-family: sans-serif;
+//     }
+//     .second{
+//         display: flex;
+//         justify-content: space-around;
+//         padding: 10% 0;
+//         background-color: #161515;
+//         color: white;
+//     }
+//     .sub-head{
+//         font-size: 30px;
+//         font-family: sans-serif;
+//     }
+//     .third{
+//         display: flex;
+//         justify-content: space-around;
+//         padding: 10% 0;
+//         flex-direction: column;
+//         gap:60px;
+//     }
+//     .sub-parts{
+//         display: flex;
+//         padding: 0 10%;
+//         justify-content: space-evenly;
+//         gap: 10%;
+//     }
+//     .mini-head{
+//         font-size: 20px;
+//         font-family: sans-serif;
+//         font-weight: 600;
+//     }
+//     .stream{
+//         display: flex;
+//         justify-content: space-around;
+//         // padding: 10% 0;
+//         flex-direction: column;
+//         // gap:60px;
+//         padding: 5% 20% 5% 20%;
+//         text-align: center;
+//         background-color: #161515;
+//         color: white;
+//     }
+//     .carousel-inner img {
+//         height: 500px;
+//         object-fit: cover;
+//       }
+//     .footer{
+//         border-top: 2px solid black;
+//         padding: 5% 0;
+//         border-bottom: 2px solid black;
+//     }  
+//     .contact{
+//         margin-left: 5%;
+//         display: flex;
+//         flex-direction: column;
+//         gap: 15px;
+    
+//     }
+//     .end{
+//         padding: 2% 0;
+//         display: flex;
+//         margin-left: 5%;
+//         gap: 10px;
+//     }
+// }
